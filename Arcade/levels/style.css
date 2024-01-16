@@ -162,6 +162,30 @@ a {
 #scisor:hover {
     border: 8px #2e5fc4 solid;
 }
+#components {
+    color: white;
+    font-family: 'Showcard Gothic Regular';
+    font-size: 35px;
+    font-weight: 400;
+}
+#stone {
+    position: relative;
+    display: inline-block;
+    left: 210px;
+    top: 20px;
+}
+#paper {
+    position: relative;
+    display: inline-block;
+    left: 475px;
+    top: 20px;
+}
+#scissor {
+    position: relative;
+    display: inline-block;
+    left: 740px;
+    top: 20px;
+}
 @media (max-width : 450px ) {
     #h1 {
         margin-top: 10px;
