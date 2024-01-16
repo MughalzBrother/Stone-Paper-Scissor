@@ -1,6 +1,6 @@
 let userScore = 1;
 let compScore = 1;
-let moves = 24;
+let moves = 14;
 let animation = document.querySelector("#mainBox");
 const choices = document.querySelectorAll(".choice");
 let moveCounter = document.querySelector("#counter");

@@ -5,42 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solo</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="bodyDi">
+    <div id="bodyDiv">
         <h1 class="h1">You VS Computer</h1>
-        <div class="choices">
-            <div class="choice" id="Stone">
-                <img src="/Images/stone.png" alt="" class="images" id="stonee">
+        <div id="mainBox">
+            <div id="moveCounter">
+                <div id="text">You Have : </div>
+                <div id="counter">20</div>
+                <div id="text">moves.</div>
             </div>
-            <div class="choice" id="Paper">
-                <img src="/Images/paper.png" alt="" class="images" id="papper">
+            <div class="choices">
+                <div class="choice" id="Stone">
+                    <img src="/Arcade/Images/stone.png" alt="" class="images" id="stonee">
+                </div>
+                <div class="choice" id="Paper">
+                    <img src="/Arcade/Images/paper.png" alt="" class="images" id="papper">
+                </div>
+                <div class="choice" id="Scissor">
+                    <img src="/Arcade/Images/scissor.png" alt="" class="images" id="scisor">
+                </div>
             </div>
-            <div class="choice" id="Scissor">
-                <img src="/Images/scissor.png" alt="" class="images" id="scisor">
+            <div id="components">
+                <div id="stone">Stone</div>
+                <div id="paper">Paper</div>
+                <div id="scissor">Scissor</div>
             </div>
+            <div id="counters">
+                <div id="userCounter">0</div>
+                <div id="compCounter">0</div>
+                <div id="user">You</div>
+                <div id="vs">VS</div>
+                <div id="comp">Computer</div>
+            </div>
+            <div id="board">Score Board</div>
+            <div id="scoreBoard">Play Your Move</div>
         </div>
-        <div id="components">
-            <div id="stone">Stone</div>
-            <div id="paper">Paper</div>
-            <div id="scissor">Scissor</div>
-        </div>
-        <div id="counters">
-            <div id="userCounter">0</div>
-            <div id="compCounter">0</div>
-            <div id="user">You</div>
-            <div id="vs">VS</div>
-            <div id="comp">Computer</div>
-        </div>
-        <div id="board">Score Board</div>
-        <div id="scoreBoard">Play Your Move</div>
         <div id="comeBack">
-            <a href="/index.html"><img src="/Images/back.png" alt="Back" id="soloBack"></a>
+            <a href="/Arcade/arcade.html">
+                <img src="/Arcade/Images/back.png" alt="Back" width="50px">
+            </a>
         </div>
     </div>
-    <script src="soloScript.js"></script>
+    <script src="script2.js"></script>
 </body>
 
 </html>
